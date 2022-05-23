@@ -5,7 +5,7 @@ from phonenumbers import timezone
 from timezonefinder import TimezoneFinder
 from geopy.geocoders import Nominatim
 
-target = "+905322955612"
+target = "number_here_with_+33_in_the_beggining_for_example"
 
 def track():
     number = phonenumbers.parse(target)
